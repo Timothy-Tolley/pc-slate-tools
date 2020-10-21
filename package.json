@@ -1,0 +1,34 @@
+{
+  "name": "@process-creative/pc-slate-tools",
+  "version": "1.4.5",
+  "private": true,
+  "author": "Process Creative",
+  "description": "Process Creative JavaScript theme tools",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "shopify",
+    "process",
+    "creative",
+    "slate",
+    "theme",
+    "tools",
+    "scripts"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/procescreative/pc-slate-tools.git"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.30",
+    "@types/js-cookie": "^2.2.2",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.0"
+  }
+}
